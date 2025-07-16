@@ -1,4 +1,5 @@
-input=list(map(str,input("Enter the input:").split()))
+input=input("enter the values").split()
+input=list(input)
 sequence=input[1::3]
 reversed=sequence[::-1]
 output=[]
