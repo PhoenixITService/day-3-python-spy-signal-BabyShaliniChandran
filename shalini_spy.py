@@ -4,4 +4,5 @@ reversed=sequence[::-1]
 output=""
 for num in reversed:
     output+=chr(num)
-print(output)
+output=list(output)
+print(*output)
